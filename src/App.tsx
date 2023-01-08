@@ -16,7 +16,7 @@ function App() {
 
   useEffect(()=> {
     restart()
-    setCurrentPlayer(whitePlayer)
+    setCurrentPlayer(whitePlayer)  
   }, [])
 
   function swapPlayer() {
