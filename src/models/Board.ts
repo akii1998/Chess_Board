@@ -1,18 +1,18 @@
 import { Colors } from "./Colors"
 import { Cell } from "./Cell"
-import { Queen } from "./figuers/Queen"
-import { Pawn } from "./figuers/Pawn"
-import { King } from "./figuers/King"
-import { Bishop } from "./figuers/Bishop"
-import { Knight } from "./figuers/Knight"
-import { Rook } from "./figuers/Rook"
-import { Figure } from "./figuers/Figure"
+import { Queen } from "./figures/Queen"
+import { Pawn } from "./figures/Pawn"
+import { King } from "./figures/King"
+import { Bishop } from "./figures/Bishop"
+import { Knight } from "./figures/Knight"
+import { Rook } from "./figures/Rook"
+import { Figure } from "./figures/Figure"
 
 
 export class Board {
     cells: Cell[][] = []
-    lostBlackFigurs: Figure[] = [];
-    lostWhiteFigurs: Figure[] = [];
+    lostBlackFigures: Figure[] = [];
+    lostWhiteFigures: Figure[] = [];
 
 
     public initCells() {
@@ -20,9 +20,9 @@ export class Board {
           const row: Cell[] = []
           for (let j = 0; j < 8; j++) {
             if ((i + j) % 2 !== 0) {
-              row.push(new Cell(this, j, i, Colors.BLACK, null)) // Черные ячейки
+              row.push(new Cell(this, j, i, Colors.BLACK, null)) // First player
             } else {
-              row.push(new Cell(this, j, i, Colors.WHITE, null)) // белые
+              row.push(new Cell(this, j, i, Colors.WHITE, null)) // Second player
             }
           }
           this.cells.push(row);
@@ -32,8 +32,8 @@ export class Board {
     public getCopyBoard(): Board {
       const newBoard = new Board();
       newBoard.cells = this.cells
-      newBoard.lostWhiteFigurs = this.lostWhiteFigurs
-      newBoard.lostBlackFigurs = this.lostBlackFigurs
+      newBoard.lostWhiteFigures = this.lostWhiteFigures
+      newBoard.lostBlackFigures = this.lostBlackFigures
 
       return newBoard
     }
