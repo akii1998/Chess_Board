@@ -41,11 +41,11 @@ function App() {
       <div>
         <LostFigures
         title='Black figures'
-        figures={board.lostBlackFigurs}
+        figures={board.lostBlackFigures}
         />
          <LostFigures
         title='White figures'
-        figures={board.lostWhiteFigurs}
+        figures={board.lostWhiteFigures}
         />
       </div>
     </div>
