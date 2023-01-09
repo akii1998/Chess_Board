@@ -16,10 +16,10 @@ Site [Link](https://raft-lab-knight-moves.vercel.app/).
 
 -   [ ] When you kill a chessboard, it is moved to the side list
 
-![2022-06-16_10-54-22](https://user-images.githubusercontent.com/77203734/174002897-a6196a44-5656-4da5-903b-027131f6583b.png)
+![Screenshot 2023-01-09 214231](https://user-images.githubusercontent.com/110331686/211361213-3858f806-64bd-44e9-82b0-38578cae4773.png)
 
-![2022-06-16_10-54-53](https://user-images.githubusercontent.com/77203734/174002888-5a47fc33-b16c-46e7-beb4-e4131ee4d245.png)
+![image_2](https://user-images.githubusercontent.com/110331686/211361344-8e4e0d91-ccab-4cd2-b537-a3e5e13c7cf3.png)
 
-![2022-06-16_10-55-55](https://user-images.githubusercontent.com/77203734/174002882-f78e2b77-4a06-4a9a-ae9a-5f335675ad0b.png)
+![image_3](https://user-images.githubusercontent.com/110331686/211361369-1a05795e-fd25-41c9-91eb-9a7bad1d78f1.png)
 
-
+![image_4](https://user-images.githubusercontent.com/110331686/211361391-c117d9b8-af0a-4ed6-8c78-0ada03ff285c.png)
