@@ -35,8 +35,8 @@ const  BoardComponents: FC<PropsBoard>=({board, setBoard, swapPlayer, currentPla
   function highlightCells() {
     board.highlightCells(selectedCell)
     updateBoard()
-  }
-
+  } 
+  <--update Board/ 
   function updateBoard() {
     const newBoard = board.getCopyBoard()
     setBoard(newBoard)
